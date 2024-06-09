@@ -29,7 +29,7 @@ let warnings: WarningManager = new WarningManager();
  */
 export function setWarningManager(manager: WarningManager): void {
   warnings = manager;
-};
+}
 
 /**
  * Gets the centralized {@link WarningManager}.

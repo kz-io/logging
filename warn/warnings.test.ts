@@ -4,7 +4,7 @@
  */
 
 import { describe, it } from '@std/testing/bdd';
-import { assertEquals, assertExists, assert } from '@std/assert';
+import { assert, assertEquals, assertExists } from '@std/assert';
 
 import { getWarningManager, setWarningManager, WarningManager } from './mod.ts';
 

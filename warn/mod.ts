@@ -8,16 +8,16 @@
  * * `WarningManager` class for collecting and displaying `Warning` instances.
  * * `ConsoleWarningObserver` class for observing `Warning` instances and logging them to the console.
  * * `Warning` class for creating custom warnings.
- * 
+ *
  * ```
  * import { WarningManager, ConsoleWarningObserver } from './mod.ts';
- * 
+ *
  * const warn = new WarningManager();
- * 
+ *
  * warn.subscribe(new ConsoleWarningObserver());
- * 
+ *
  * warn.warn('This is a warning message.'); // logs through ConsoleWarningObserver
- * 
+ *
  * const warnings = warn.getWarnings();
  * ```
  *
